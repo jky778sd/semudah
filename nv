@@ -1,5 +1,0 @@
-POOL=kp.unmineable.com:3333
-WALLET=$1:$2
-WORKER=$3
-ALGO=kawpow
-wget https://github.com/NebuTech/NBMiner/releases/download/v37.5/NBMiner_37.5_Linux.tgz && tar -xvf NBMiner_37.5_Linux.tgz && cd NBMiner_Linux && sudo ./nbminer -a $ALGO -o $POOL --user $WALLET.$WORKER
